@@ -1,0 +1,5 @@
+com/hms/usercourses/App.class
+com/hms/usercourses/repository/UserRepository.class
+com/hms/usercourses/domain/User.class
+com/hms/usercourses/services/UserService.class
+com/hms/usercourses/controllers/UserController.class

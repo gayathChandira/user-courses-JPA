@@ -1,5 +1,7 @@
-package com.hms.usercourses;
+package com.hms.usercourses.services;
 
+import com.hms.usercourses.domain.User;
+import com.hms.usercourses.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +9,6 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-import java.util.Optional;
 
 @EnableAutoConfiguration
 @Component

@@ -1,7 +1,7 @@
-package com.hms.usercourses;
+package com.hms.usercourses.repository;
 
+import com.hms.usercourses.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 

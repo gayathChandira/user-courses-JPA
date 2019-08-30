@@ -1,4 +1,4 @@
-package com.hms.usercourses;
+package com.hms.usercourses.domain;
 
 import javax.persistence.*;
 

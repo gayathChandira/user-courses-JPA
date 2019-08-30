@@ -1,5 +1,5 @@
-/home/gayath/projects/jpa/user-courses/src/main/java/com/hms/usercourses/UserController.java
-/home/gayath/projects/jpa/user-courses/src/main/java/com/hms/usercourses/UserRepository.java
 /home/gayath/projects/jpa/user-courses/src/main/java/com/hms/usercourses/App.java
-/home/gayath/projects/jpa/user-courses/src/main/java/com/hms/usercourses/User.java
-/home/gayath/projects/jpa/user-courses/src/main/java/com/hms/usercourses/UserService.java
+/home/gayath/projects/jpa/user-courses/src/main/java/com/hms/usercourses/services/UserService.java
+/home/gayath/projects/jpa/user-courses/src/main/java/com/hms/usercourses/domain/User.java
+/home/gayath/projects/jpa/user-courses/src/main/java/com/hms/usercourses/controllers/UserController.java
+/home/gayath/projects/jpa/user-courses/src/main/java/com/hms/usercourses/repository/UserRepository.java
