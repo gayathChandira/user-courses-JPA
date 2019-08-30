@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.hms.usercourses.UserDAOImplTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! - in com.hms.usercourses.UserDAOImplTest
+addUser  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.hms.usercourses.UserDAOImplTest.addUser(UserDAOImplTest.java:45)
+
+findUser  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.hms.usercourses.UserDAOImplTest.findUser(UserDAOImplTest.java:22)
+
+editUser  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.hms.usercourses.UserDAOImplTest.editUser(UserDAOImplTest.java:52)
+
+deleteUser  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.hms.usercourses.UserDAOImplTest.deleteUser(UserDAOImplTest.java:65)
+
+findAllUsers  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.hms.usercourses.UserDAOImplTest.findAllUsers(UserDAOImplTest.java:29)
+
