@@ -8,16 +8,23 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-@RestController
-@RequestMapping("/users")
+//@RestController
+//@RequestMapping("/users")
 public class UserController {
     @Autowired
     UserService service;
 
     private static final Logger logger
             = LoggerFactory.getLogger(UserController.class);
+
+    @GetMapping(path = "/")
+    public String index() {
+        return "index.html";
+    }
 
     @PostMapping(path = "/add", consumes = "application/x-www-form-urlencoded")
     public void addUsers(User user) {
@@ -46,5 +53,11 @@ public class UserController {
         System.out.println(id);
         System.out.println(user);
         service.edit(user, id);
+    }
+
+    @GetMapping("/logout")
+    public String logout(HttpServletRequest request) throws ServletException {
+        request.logout();
+        return "/";
     }
 }
